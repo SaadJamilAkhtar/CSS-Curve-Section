@@ -15,3 +15,44 @@ section{
     min-height: 400px;
     padding: 100px 20vw;
 }
+.blue {
+    background-color: #3c31dd;
+}
+.red {
+    background-color: #dd3f31;
+}
+.pink {
+    background-color: #ff0066;
+}
+.dark{
+    background-color: #0f0f10;
+}
+
+#curve{
+    position: absolute;
+    height: 255px;
+    width: 100%;
+    bottom: 0;
+    &::before{
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        background-color: #202731;
+        transform: translate(85%, 60%);
+    }
+
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        background-color: #3c31dd;
+        transform: translate(-4%, 40%);
+    }
+}
+
