@@ -18,7 +18,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 400px;
+  min-height: 200px;
   padding: 100px 20vw;
 }
 
