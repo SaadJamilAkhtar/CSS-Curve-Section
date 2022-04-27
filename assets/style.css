@@ -106,4 +106,8 @@ section {
   width: calc(110% + 1.3px);
   height: 162px;
 }
+
+.wave .shape-fill {
+  fill: #0f0f10;
+}
 /*# sourceMappingURL=style.css.map */
