@@ -83,10 +83,20 @@ section {
 }
 
 .bubble h1 {
+  padding-top: 5rem;
   z-index: 1;
 }
 
 .bubble p {
   z-index: 1;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 /*# sourceMappingURL=style.css.map */

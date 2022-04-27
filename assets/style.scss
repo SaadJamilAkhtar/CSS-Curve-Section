@@ -59,6 +59,7 @@ section{
 }
 
 .bubble{
+    
     &::after{
         content: "";
         border-top-left-radius: 50% 100%;
@@ -73,10 +74,18 @@ section{
     }
 
     h1{
+        padding-top: 5rem;
         z-index: 1;
     }
     p{
         z-index: 1;
     }
 }
-
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
